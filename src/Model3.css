@@ -1,0 +1,185 @@
+#team .member
+{
+    border-radius: 21px;
+    width: 265px;
+    padding: 40px 0;
+    height: max-content;
+    background-color: #fff;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+#team .member::after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 20px;
+    transition: all 1s;
+    /* background: rgba(8,61,119); */
+    background: white;
+}
+
+#team .member::before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 0;
+    height: 20px;
+    transition: all 1s;
+    /* background: rgba(8,61,119); */
+    background: white;
+}
+
+#team img
+{
+    border-radius: 87%;
+    transition: all 1s;
+    width: 200px;
+    height: 200px;
+}
+
+#team .description h1
+{
+    color: #002266;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#team .description h2
+{
+    /* font-family: 'Poppins', sans-serif; */
+    text-align: center;
+    /* color: #F21B3F; */
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#team .description p
+{
+    /* color: rgba(8,61,119); */
+    text-align: justify;
+    padding: 0 15px;
+}
+
+#team .social-media
+{
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    transition: all 1s;
+    width: 0;
+    opacity: 0;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+}
+
+#team .description .social-media svg
+{
+    font-size: 1.5rem;
+    transition: all 1s;
+}
+
+#team .member:hover .social-media
+{
+    width: 100%;
+    opacity: 1;
+}
+
+#team .member:hover
+{
+    background-color:#002266;
+    transform: scale(1.01);
+}
+
+#team .member:hover img
+{
+    transform: scale(1.1);
+    border: 2px solid #002266;
+    border: 2px solid whitesmoke;
+}
+
+#team .description .social-media svg:hover
+{
+    transform: scale(1.1);
+    color: #002266;
+}
+
+#team .member:hover::before
+{
+    width: 50%;
+}
+
+#team .member:hover::after
+{
+    width: 50%;
+}
+
+
+
+.model-title
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 52px;
+    color: white;
+}
+
+.members
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.member
+{
+    margin: 25px 76px;
+    border-radius: 10px;
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+.member:hover
+{
+    transform: scale(1.00 );
+    
+}
+
+.member h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.team-p {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
