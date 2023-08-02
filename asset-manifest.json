@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Team2A-MetPsyGamificationDesign/static/css/main.86bfe9ba.css",
-    "main.js": "/Team2A-MetPsyGamificationDesign/static/js/main.aef94a82.js",
+    "main.js": "/Team2A-MetPsyGamificationDesign/static/js/main.d517231e.js",
     "static/js/787.9f10229f.chunk.js": "/Team2A-MetPsyGamificationDesign/static/js/787.9f10229f.chunk.js",
     "static/media/team-pic.JPG": "/Team2A-MetPsyGamificationDesign/static/media/team-pic.0b914051916ca4be4ca7.JPG",
     "static/media/Group2A_Poster.png": "/Team2A-MetPsyGamificationDesign/static/media/Group2A_Poster.68d5486df407a2d7588a.png",
@@ -58,11 +58,11 @@
     "static/media/wave-inverted.svg": "/Team2A-MetPsyGamificationDesign/static/media/wave-inverted.340488ed77a26bc4a083.svg",
     "static/media/logo.svg": "/Team2A-MetPsyGamificationDesign/static/media/logo.69159ec2dc969d1700509955bfc1acc0.svg",
     "main.86bfe9ba.css.map": "/Team2A-MetPsyGamificationDesign/static/css/main.86bfe9ba.css.map",
-    "main.aef94a82.js.map": "/Team2A-MetPsyGamificationDesign/static/js/main.aef94a82.js.map",
+    "main.d517231e.js.map": "/Team2A-MetPsyGamificationDesign/static/js/main.d517231e.js.map",
     "787.9f10229f.chunk.js.map": "/Team2A-MetPsyGamificationDesign/static/js/787.9f10229f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86bfe9ba.css",
-    "static/js/main.aef94a82.js"
+    "static/js/main.d517231e.js"
   ]
 }
