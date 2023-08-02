@@ -4,6 +4,8 @@
 
 This project aims to address the need for user engagement beyond live sessions on the MetPsy's online coaching platform by incorporating gamification designs into MetPsy's existing app.
 
+View our website: https://design-and-innovation-2023.github.io/Team2A-MetPsyGamificationDesign/
+
 ## Members of Team 2A
 
 | Name                     | GUID     |
