@@ -1,6 +1,4 @@
-# Project Title
-
-MetPsy Gamification Design.
+# MetPsy Gamification Design
 
 ## Description
 
