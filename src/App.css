@@ -1240,7 +1240,9 @@ h2{
   align-items: center; /* Center the content vertically */
   padding: 200px; /* Add padding to create the rectangular background */
 }
-
+.css-1539xgi {
+  color: #fff !important;
+}
 
 /************ Poster Css ************/
 .poster {

@@ -2,6 +2,14 @@ import React from "react";
 import { ProjNavBar } from "../components/ProjNavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import existing_1 from "../assets/img/existing_1.png";
+import existing_2 from "../assets/img/existing_2.png";
+import existing_3 from "../assets/img/existing_3.png";
+import existing_4 from "../assets/img/existing_4.png";
+import existing_5 from "../assets/img/existing_5.png";
+import existing_6 from "../assets/img/existing_6.png";
+import existing_7 from "../assets/img/existing_7.png";
+
 import idea1_1 from "../assets/img/idea-1-1.png";
 import idea1_2 from "../assets/img/idea-1-2.png";
 import idea1_3 from "../assets/img/idea-1-3.png";
@@ -36,6 +44,37 @@ export const IdeaExploration = () => {
             items: 1,
         },
     };
+
+    const pre_existing = [
+        {
+            title: "Home Page",
+            imgUrl: existing_1,
+        },
+        {
+            title: "Forum Page 1",
+            imgUrl: existing_2,
+        },
+        {
+            title: "Forum Page 2",
+            imgUrl: existing_3,
+        },
+        {
+            title: "Forum Page 3",
+            imgUrl: existing_4,
+        },
+        {
+            title: "Tracking Page ",
+            imgUrl: existing_5,
+        },
+        {
+            title: "Tracking Page 2",
+            imgUrl: existing_6,
+        },
+        {
+            title: "Tracking Page 3",
+            imgUrl: existing_7,
+        },
+    ];
 
     const designs_1 = [
         {
@@ -127,7 +166,9 @@ export const IdeaExploration = () => {
                             The team apply scrum with sprint to break work into
                             goals to be completed within 2 weeks. The team
                             consulted and incorporate MetPsy's feedback with 3
-                            iteration to continuously improve the prototype.
+                            iteration to consistently update and enhance the
+                            existing solution to continuously improve the
+                            prototype.
                         </p>
                     </div>
                 </div>
@@ -135,6 +176,65 @@ export const IdeaExploration = () => {
 
             <div className="ideaExploration-div-wrapper">
                 <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="idea-1-div-wrapper">
+                                <span className="idea-tagline">
+                                    Pre existing Solution
+                                </span>
+                                <Slide>
+                                    <PhotoProvider>
+                                        <Carousel
+                                            responsive={responsive}
+                                            showDots
+                                            infinite={true}
+                                            className="owl-carousel owl-theme team-slider idea-carousel"
+                                        >
+                                            {pre_existing.map(
+                                                (design, index) => {
+                                                    return (
+                                                        <div
+                                                            key={index}
+                                                            className="item"
+                                                        >
+                                                            <PhotoView
+                                                                key={index}
+                                                                src={
+                                                                    design.imgUrl
+                                                                }
+                                                            >
+                                                                <img
+                                                                    src={
+                                                                        design.imgUrl
+                                                                    }
+                                                                    alt="design-1"
+                                                                    className="idea-explore-img"
+                                                                />
+                                                            </PhotoView>
+                                                            <h5 className="idea-h5">
+                                                                {design.title}
+                                                            </h5>
+                                                        </div>
+                                                    );
+                                                }
+                                            )}
+                                        </Carousel>
+                                    </PhotoProvider>
+                                </Slide>
+                                <div className="idea-p-wrapper">
+                                    <p className="idea-p">
+                                        The existing solution faces issues with
+                                        outdated UI, low user motivation for
+                                        engagement, and lack of a gamification
+                                        concept, hindering effective user
+                                        interaction and long-term behavioral
+                                        changes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12">
                             <div className="idea-1-div-wrapper">
