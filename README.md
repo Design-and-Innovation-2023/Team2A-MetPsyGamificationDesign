@@ -14,5 +14,5 @@ This project aims to address the need for user engagement beyond live sessions o
 | Mirza Bin Mohamad Aljaru | 2717901B |
 | Darren Quek Ser Wee      | 2717955Q |
 | Soh Ming Le              | 2717853S |
-| Tan Yi                   |          |
-| Cheo Cheang Ming         |          |
+| Tan Yi                   | 2717884T |
+| Cheo Cheang Ming         | 2717858C |
