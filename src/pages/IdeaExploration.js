@@ -182,7 +182,7 @@ export const IdeaExploration = () => {
                                 <span className="idea-tagline">
                                     Pre existing Solution
                                 </span>
-                                <Slide>
+                                <Slide direction="right">
                                     <PhotoProvider>
                                         <Carousel
                                             responsive={responsive}
